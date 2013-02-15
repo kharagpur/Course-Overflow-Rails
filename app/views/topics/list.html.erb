@@ -1,0 +1,49 @@
+<div>
+	Topics
+</div>
+
+<table>
+	<tr>
+		<th>
+			&nbsp;
+		</th>
+		<th>
+			Title
+		</th>
+		<th>
+			Definitions
+		</th>
+		<th>
+			Analogies
+		</th>
+		<th>
+			Videos
+		</th>
+	</tr>
+	
+	<% @topics.each do |topic| %>
+		<tr>
+			<td>
+				<%=@topic.title %>
+			</td>
+			<td>
+				<%=@topic.definition %>
+			</td>
+			<td>
+			<%=	@topic.analogy %>
+			</td>
+			<td>
+			<%=	@topic.video %>
+			</td>
+	
+			<td>
+				<%= link_to("Show",  { :action =>'show', :id => topic.id})%>
+				<%= link_to("Edit", '#')%>
+				<%= link_to("Delete", '#')%>
+			</td>
+	
+		</tr>
+	<% end%>
+</table>
+
+

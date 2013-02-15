@@ -1,0 +1,36 @@
+
+<% @stylesheet = "popup.css"%>
+<div class = "component-options">
+	<%= link_to "More on #{@topic.title}", "/topics/#{@topic.id}"  %>	
+</div>
+
+	<div class="popup-form">
+			<div class="popup_content-form">
+				
+				<!--Video's form-->
+				<div class="title">
+				New Video for <%= @topic.title %>: 
+				</div>
+				<div class="title">
+					<table>	
+								<tr>
+									
+									<td>
+							<p>Title:</p>	
+									<%=	f.text_field(:title,:rows =>1, :cols =>60) %>
+									
+									</td>
+								</tr>
+								<tr>	  
+									<td>
+								<p>Link:</p>
+									<%=	f.text_field(:description,:rows =>1, :cols =>60) %>
+									
+									</td>
+					
+								</tr>
+					</table>
+
+			</div>				
+	</div>
+</div>

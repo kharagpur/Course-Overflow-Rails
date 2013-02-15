@@ -1,0 +1,9 @@
+<h1> This is a list of all the departments in SFU</h1>
+<p>
+		<% @dept.each do |post| %>
+		<p>
+			<%= link_to post.title, post %>
+		</p>
+		<% end %>
+</p>
+

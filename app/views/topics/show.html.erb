@@ -1,0 +1,256 @@
+<% content_for :javascript_includes do %>
+	<%= javascript_include_tag "course-vote.js" %>
+<% end %>
+<!--topics.show-->
+<div id = "wrapper">
+<!--form for a Topic-->
+<!-- Begin Header -->
+	<%= render 'layouts/common_header' %>
+<!-- End Header -->
+
+<div id="wrapper">
+
+<div id="course-title">
+	<%=@topic.title %>
+	
+	
+</div>
+
+<div id="content-body">
+	<div class="component-options">
+		<%=link_to "<< Go back to course page", "/courses/#{@course.id}" %>
+	</div>
+	<!-- Begin display definitions -->
+	<div class="concept-container">
+
+		<!-- Title -->
+		<div class="concept-title">Definitions</div>
+
+		<!-- Add New Definition -->
+                <div class="concept-options"><%= link_to "Add New Definitions", "/topics/#{@topic.id}/definitions" %> <br/>
+	<div class="component-options"> </div>
+	</div>
+
+			<div class="component">
+				
+				<!--Get all definitions for current topic-->
+				
+			<%	@defs = defins(@topic) %>
+			
+			<% if @defs.blank?%>
+				<div class= "component-panel"><p> There is no Definition yet. Click Add Definitions to add one</p></div>	
+			<%end%>	
+			
+			<% @defs.each do |d| %>
+				<div class="component-panel">
+					
+					<!-- Begin description -->
+					
+					
+					
+					<% if !@topic.definitions.blank?%>
+                                        <p>
+										<%= d.description %>
+																
+                                        </p>
+					<%end%>
+                                        <!-- End description -->
+										
+
+                                        <!-- Begin rating display -->
+
+										<!-- Username -->
+										<% if !d.user.blank?%>
+
+											<div class="component-score-text">
+															<p style = "float: right"><%=link_to "#{d.user.firstname.capitalize} #{ d.user.lastname.capitalize}", d.user %></p> <br/>
+		<% if signed_in? and d.user == current_user%>
+																											<p style = "float: right"><%=link_to "Edit", "/topics/#{@topic.id}/definitions/edit/#{d.id}" %></p>
+		<%end%>																									
+																											</div>
+										<%end%>
+                                        <div class="component-score">
+	
+                                                <div class="component-score-text">
+                                                
+					
+					
+                                               
+                                                </div>
+                                                <div class="component-score-text">
+                                                <span><%= num_upvotes("definition", d.id) %></span>
+						<a href="/votes/definition/<%= d.id %>" title="Upvote" class="definition_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+                                                </div>
+                                                <div class="component-score-text">
+                                                <span><%= num_downvotes("definition", d.id) %></span>
+						<a href="/votes/definition/<%= d.id %>" title="Downvote" class="definition_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+                                                </div>
+                                        </div>
+                                        <!-- End rating display -->
+				</div>
+				
+				<%end%> <!--end the for each definition-->
+				
+                        </div>
+	</div>
+	<!-- End display definitions -->
+	
+	<!-- Begin display analogies -->
+	<div class="concept-container">
+		
+		<!-- Title -->
+                <div class="concept-title">Analogies</div>
+
+		<!-- Add New Analogies -->
+                <div class="concept-options"><%= link_to "Add New Analogies", "/topics/#{@topic.id}/analogies" %> <br/>
+	
+				</div>
+
+
+                        <div class="component">
+	
+			<!--Get all analogies for current topic-->
+	
+						<%	@ana = analogs(@topic) %>
+						<% if @ana.blank?%>
+					<div class= "component-panel"><p> There is no Analogy available yet. Click Add Analogies to add one</p></div>	
+						<%end%>
+								<% @ana.each do |a| %>
+							
+                                <div class="component-panel">
+					<!-- Begin description -->
+								<% a.description%>
+									<%if !@topic.analogys.blank?%>
+                                        <p>
+                                                <%=a.description %>
+                                        </p>
+									<%end%>
+                                        <!-- End description -->
+
+                                        <!-- Begin rating display -->
+<div class="component-score-text">
+<p style = "float: right"><%=link_to "#{a.user.firstname.capitalize} #{ a.user.lastname.capitalize}", a.user %></p> <br/>
+
+												<p style = "float: right">
+													<% if signed_in? and a.user == current_user%>
+									<%=link_to "Edit", "/topics/#{@topic.id}/analogies/edit/#{a.id}" %><%end%></p>
+												</div>
+
+                                        <div class="component-score">
+                                                
+                                                
+											
+                                                
+                                                <div class="component-score-text">
+                                                <span><%= num_upvotes("analogy", a.id) %></span>
+						<a href="/votes/analogy/<%= a.id %>" title="Upvote" class="analogy_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+										
+											
+                                                </div>
+                                                <div class="component-score-text">
+                                                <span><%= num_downvotes("analogy", a.id) %></span>
+						<a href="/votes/analogy/<%= a.id %>" title="Downvote" class="analogy_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+                                                </div>
+                                        </div>
+                                        <!-- End rating display -->
+                                </div>
+							<%end%>
+							<!--end of component panel-->
+                        </div>
+        </div>
+	<!-- End display analogies -->
+
+	<!-- Begin display videos -->
+	<div class="concept-container">
+
+		<!-- Title -->
+                <div class="concept-title">Videos</div>
+
+		<!-- Add New Videos -->
+                <div class="concept-options"><%= link_to "Add New Videos", "/topics/#{@topic.id}/videos" %> <br/>
+	<div class="component-options"></div></div>
+	
+
+                        <div class="component">
+	
+	<!-- get array of videos related to topics -->
+	
+							<%	@vid = vids(@topic) %>
+							<% if @vid.blank?%>
+						<div class= "component-panel"><p> There are no video links available yet. Click Add videos to add one</p></div>
+						<%end%>
+								<% @vid.each do |v| %>
+						
+                                <div class="component-panel">
+	
+					<div class="video-preview">
+						
+						<!-- Video image preview -->
+						<%= image_tag("Dawkins.jpg", :class => "video", :alt => "video preview") %>
+
+						<!-- Video title -->
+
+					</div>
+
+					<div class="video-description">
+						<!-- Begin description -->
+										<%if !@topic.definitions.blank? %>
+                                        
+											<p>
+                                                	<%=v.title %>
+
+	                                        </p>
+											<p>
+                                                	<%= link_to "#{v.description}", "#{v.description}" %>
+													
+
+	                                        </p>
+											
+										<%end%>
+        	                                <!-- End description -->
+
+					</div>
+					<% if !v.user.blank?%>
+						 
+						<div class="component-score-text">
+										<p style = "float: right"><%=link_to "#{v.user.firstname.capitalize} #{ v.user.lastname.capitalize}", v.user %><br/>
+								<% if signed_in? and v.user == current_user%>
+										<%=link_to "Edit","/topics/#{@topic.id}/videos/edit/#{v.id} "%></p>
+									<% end%>													
+							
+						</div>
+					
+					<%end%>
+
+                                        <!-- Begin rating display -->
+                                        <div class="component-score">
+                                                <div class="component-score-text">
+                                                	
+												
+													
+                                                </div>
+                                                <div class="component-score-text">
+                                             <span><%= num_upvotes("video", v.id) %></span>
+						<a href="/votes/video/<%= v.id %>" title="Upvote" class="video_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+                                                </div>
+                                                <div class="component-score-text">
+                                                <span><%= num_downvotes("video", v.id) %></span>
+						<a href="/votes/video/<%= v.id %>" title="Downvote" class="video_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+                                                </div>
+                                        </div>
+                                        <!-- End rating display -->
+                                </div>
+							<%end%>
+							<!-- componenet Panel ends here-->	
+                        </div>
+        </div>
+	<!-- End display videos -->
+	
+	</div>
+
+	
+</div>
+
+
+</div>
+</div>

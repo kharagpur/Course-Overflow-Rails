@@ -1,0 +1,12 @@
+<% if @user.errors.any? %>
+    <div id="header_intro">
+        <h2><%= pluralize(@user.errors.count, "error") %> 
+            prohibited this user from Registering:</h2>
+        <p>There were problems with the following fields:</p>
+        <ul>
+            <% @user.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+        </ul>
+    </div>
+<% end %>

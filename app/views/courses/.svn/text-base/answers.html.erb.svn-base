@@ -1,0 +1,118 @@
+<% content_for :javascript_includes do %>
+	<%= javascript_include_tag "wmd/wmd.js" %>
+	<%= javascript_include_tag "google-code-prettify/prettify.js" %>
+	<%= javascript_include_tag "prettycode.js" %>
+	<%= javascript_include_tag "answers.js" %>
+<% end %>
+
+<% content_for :stylesheet_includes do %>
+	<%= stylesheet_link_tag "prettify.css" %>
+<% end %>
+
+<div id="wrapper">
+<!-- Begin Header -->
+	<%= render 'layouts/common_header' %>
+<!-- End Header -->
+<!-- Begin Body -->
+
+	<div id="discussion_title">
+		<h1><%= @course.title %></h1>
+		<h2><%= @question.title %></h2> 
+		<p>
+			<%= @question.description %>
+		</p>
+		<div class="question_asker">
+				<%= image_tag('peter-zenger.jpeg', alt: "Peter Zenger's Profile Picture") %>
+				<span class="pos">Posted by <a href="<%= user_path(@question.user) %>"><%= @question.user.email %></a> <span class="timestamp"><%= @question.created_at.strftime("Created on: %m/%d/%Y")%></span></span>
+		</div>
+	</div>
+
+	<!--
+	<div id="discussion_title">
+		<h1>CMPT 300 - Operating Systems</h1>
+		<h2>What four conditions must be met to get a deadlock?</h2> 
+		<p>
+			Can someone explain to me how the four conditions if met are conclusive to a deadlock? I am having trouble understanding this even after reading the textbook.
+		</p>
+		<pre>some random quote of work and stuff here</pre>
+		<div class="question_asker">
+				<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+		</div>
+	</div>-->
+
+	<!-- Begin Listing Questions -->
+
+	<h1 class="answers_title"><span><%= @answers.length %> Answers</span></h1>
+	<div id="answer_notification"></div>
+	<% if @answers.length > 0 %>
+		<% @answers.each do |answer| %>
+			<div class="question_wrapper">
+				<div class="viewsbox">
+					<div class="count">
+						<h1 class="answers"><%= answer['score'].to_i %></h1>
+						<p>Rating</p>
+					</div>
+					<p class="vote">
+						<a href="/votes/<%= answer['id'] %>" class="upvote" title="Upvote this answer"><%= image_tag("thumbs-up.png", alt: "Upvote") %></a>
+						<a href="/votes/<%= answer['id'] %>" class="downvote" title="Downvote this answer"><%= image_tag("thumbs-down.png", alt: "Downvote") %></a>
+					</p>
+				</div>
+				<div class="question_box">
+					<div class="an_answer">
+						<%= raw(markdown(answer['response'])) %>
+					</div>
+					<div class="question_asker">
+						<%= image_tag("peter-zenger.jpeg") %>
+						<span class="pos">Posted by <a href="<%= "#{users_path}/#{answer['user_id']}" %>"><%= answer['email'] %></a> <span class="timestamp"><%= answer.created_at.strftime("Answered on: %m/%d/%Y") %></span></span>
+					</div>
+				</div>
+			</div>
+		<% end %>
+	<% end %>
+	<!--
+	<div class="question_wrapper">
+		<div class="viewsbox">
+			<div class="count">
+				<h1 class="answers">123</h1>
+				<p>Votes</p>
+			</div>
+			<p class="vote">
+				<a href="#" class="upvote"><img src="images/thumbs-up.png" alt="Upvote"></a>
+				<a href="#" class="downvote"><img src="images/thumbs-down.png" alt="Downvote"></a>
+			</p>
+		</div>
+		<div class="question_box">
+			<h1>
+				<a href="#">What four conditions must be met to get a deadlock?</a>
+			</h1>
+			<div class="an_answer">
+				Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp.
+			</div>
+			<div class="question_asker">
+				<img src="images/peter-zenger.jpeg" alt="Peter Zenger" />
+				<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+			</div>
+		</div>
+	</div>-->
+	<!-- End Listing Questions -->
+	<% if signed_in? %>
+	<div id="your_answer">
+		<!-- WMD -->
+		<h1 class="answers_title"><span>Your Answer</span></h1>
+
+		<!--<form action="<%= answers_path %>" method="POST">
+			<textarea name="your_answer_md" id="your_answer_md"></textarea><br/>
+			<input type="submit" value="Submit" />
+		</form>-->
+		
+			<%= form_for(@user_ans) do |f| %>
+				<%= f.text_area :response, id: "your_answer_md" %><br/>
+				<%= f.hidden_field :question_id, value: @question.id %>
+				<%= f.submit "Submit" %>
+			<% end %>
+	</div>
+	<% else %>
+	<h1 class="answers_title"><%= link_to "Sign In", root_path %> to submit your own answer! </h1> 
+	<% end %>
+<!-- End Body -->
+</div>

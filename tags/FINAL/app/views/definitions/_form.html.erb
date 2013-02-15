@@ -1,0 +1,39 @@
+
+<% @stylesheet = "popup.css"%>
+<% if !@topic.nil?%>
+	<div class = "component-options">
+	<%= link_to "More on #{@topic.title}", "/topics/#{@topic.id}"  %>
+	
+	</div>
+<%end%>
+	<div class="popup-form">
+		
+			<div class="popup_content-form">
+				
+				<!--Definition's form-->
+			
+				
+				<div class="definition_title">
+					<table>
+						<% if !@topic.nil?%>
+								 Definition for <%= @topic.title%>:
+						<%end%>
+								<tr>
+									<th>
+										
+									</th>
+									<td>
+								
+									<%=	f.text_area(:description,:rows=>20, :cols=>70) %>
+									
+									</td>
+									
+								</tr>
+								
+					</table>
+					
+
+			</div>				
+	</div>
+	
+</div>

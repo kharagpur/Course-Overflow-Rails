@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos/new.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos/_form.html.erb
+END
+delete.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos/delete.html.erb
+END
+create.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/videos/create.html.erb
+END

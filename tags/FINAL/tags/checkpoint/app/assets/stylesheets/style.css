@@ -1,0 +1,119 @@
+.lightblue-text {
+  color: #d3f4ff;
+}
+.darkblue-text {
+  color: #38c9ff;
+}
+@font-face {
+  font-family: 'Armata';
+  src: url('armata-regular-webfont.eot');
+  src: url('armata-regular-webfont.eot?#iefix') format('embedded-opentype'), url('armata-regular-webfont.woff') format('woff'), url('armata-regular-webfont.ttf') format('truetype'), url('armata-regular-webfont.svg#') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+  font-size: 100%;
+}
+/*** HEADER ***/
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+#header {
+  font-family: Armata, sans-serif;
+  font-size: 220%;
+  color: #676767;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#header span {
+  color: #38c9ff;
+}
+#header_intro {
+  background-color: #d3f4ff;
+  font-size: 95%;
+  padding: 10px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+/*** LOGIN AND REGISTER ***/
+#home-body {
+  background: url("../assets/home-logo.jpg") top left no-repeat;
+  overflow: hidden;
+}
+#login-register {
+  float: right;
+  height: 400px;
+  width: 560px;
+  overflow: hidden;
+}
+#login-register img {
+  position: absolute;
+  z-index: 100;
+}
+#login-register a {
+  color: #676767;
+  display: inline-block;
+  font-family: Armata, sans-serif;
+  font-size: 180%;
+  height: 59px;
+  line-height: 59px;
+  letter-spacing: 2px;
+  padding: 0 60px 0 80px;
+  background-color: #e7e7e7;
+  border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+}
+#login-register a.selected {
+  background-color: #d3f4ff;
+}
+#login-register #login-btn {
+  position: relative;
+  z-index: 2;
+  border-right: 3px solid #fff;
+}
+#login-register #register-btn {
+  position: relative;
+  margin-left: -40px;
+  z-index: 1;
+}
+#home-content {
+  background-color: #d3f4ff;
+  padding: 20px;
+  overflow: hidden;
+  min-height: 412px;
+}
+#home-content input[type=text],
+#home-content input[type=password] {
+  float: left;
+  width: 350px;
+  margin-left: 50px;
+  margin-bottom: 4px;
+  padding: 4px 4px;
+}
+#home-content input[type=submit] {
+  border: 0;
+  color: #fff;
+  font-family: Armata, sans-serif;
+  font-size: 100%;
+  margin-top: 20px;
+  background: url("../assets/form-submit.png") top left no-repeat;
+  display: inline-block;
+  width: 141px;
+  height: 49px;
+  float: right;
+}
+#home-content br {
+  clear: both;
+}
+#home-content #register_form {
+  display: none;
+}
+#home-content #login_form {
+  padding-top: 40px;
+}
+#home-content #login_form input {
+  margin-bottom: 30px;
+}

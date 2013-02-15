@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/new.html.erb
+END
+list.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/list.html.erb
+END
+read.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/read.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/_form.html.erb
+END
+delete.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/delete.html.erb
+END
+update.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/update.html.erb
+END
+create.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/views/definitions/create.html.erb
+END

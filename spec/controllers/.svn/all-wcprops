@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/189/COURSE-OVERFLOW/RAILS/spec/controllers
+END
+users_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/spec/controllers/users_controller_spec.rb
+END
+answers_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/189/COURSE-OVERFLOW/RAILS/spec/controllers/answers_controller_spec.rb
+END
+department_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/131/COURSE-OVERFLOW/RAILS/spec/controllers/department_controller_spec.rb
+END
+sessions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/spec/controllers/sessions_controller_spec.rb
+END
+questions_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/143/COURSE-OVERFLOW/RAILS/spec/controllers/questions_controller_spec.rb
+END
+pages_controller_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/spec/controllers/pages_controller_spec.rb
+END

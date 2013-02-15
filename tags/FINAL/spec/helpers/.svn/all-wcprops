@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/helpers
+END
+questions_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/helpers/questions_helper_spec.rb
+END
+answers_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/helpers/answers_helper_spec.rb
+END
+department_helper_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/helpers/department_helper_spec.rb
+END

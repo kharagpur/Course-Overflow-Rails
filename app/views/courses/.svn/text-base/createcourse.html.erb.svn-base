@@ -1,0 +1,19 @@
+<% provide(:title, @title)%>
+<div class="popup">
+		<div class="title">
+			Add New Course
+		</div>
+		<div class="popup_content">
+			<div class="definition_title">
+				Concept Name:
+
+				<form action="/courses" method="post">
+					<input type="hidden" name="concept[course_id]" value=<%= @course.id %> />
+					<input type="text" id="create_title" name="concept[title]" placeholder="Concept"/>
+			
+					<input type="submit" name="commit" value="Add New Concept" />
+				</form>
+			</div>
+		</div>
+	</div>
+

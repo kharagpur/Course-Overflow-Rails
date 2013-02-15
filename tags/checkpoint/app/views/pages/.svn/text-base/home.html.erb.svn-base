@@ -1,0 +1,43 @@
+	<div id="wrapper">
+	<!-- Begin Header -->
+		<div id="header"><span class="darkblue-text">W</span>elcome to <span class="lightblue-text">C</span>ourse <span class="darkblue-text">O</span>verflow!</div>
+		<div id="header_intro">
+			Having trouble with your learning material? Have Questions? Fear not, find the course you are enrolled in and begin asking questions.
+		</div>
+		
+	<!-- End Header -->
+	<!-- Begin Body -->
+		<div id="home-body">
+	
+			<div id="login-register">
+			<!--	<im src="images/tab-decoration.png" alt="Tab Decoration" id="tab-decoration" />-->
+			<%=	image_tag("tab-decoration.png",:alt =>"Tab Decoration", :id =>"tab-decoration")%>
+				<a href="home" id="login-btn" class="selected"><span class="darkblue-text">L</span>ogin</a>
+				<a href="#" id="register-btn"><span class="darkblue-text">R</span>egister</a>
+
+				<div id="home-content">
+					<form action="/users"  class="new_user" id="register_form" method="post"><!--id="register_form">-->
+						
+						<input type="text" id="register_firstname" name="user[firstname]" placeholder="First Name"/> <br/>
+						<input type="text" id="register_lastname" name="user[lastname]" placeholder="Last Name"/> <br/>
+						<input type="text" id="register_email" name="user[email]" placeholder="E-mail"/> <br/>
+						<input type="text" id="register_major" name="user[major]" placeholder="Major" /> <br/>
+						<input type="password" id="register_password" name="user[password]" placeholder="Password" /><br/>
+						<input type="password" name="user[password_confirmation]" placeholder="Re-enter Password" /><br/>
+						<input type="submit" name="commit" value="Register" />
+				</form>	
+					
+				<form action="/sessions" id="login_form" method = "post">
+					<input type="text" id="login_email" name="session[email]" placeholder="E-mail"/> <br/>
+				   	<input type="password" id="login_password" name="session[password]" placeholder="Password" /><br/>
+					<input type="submit" name="commit" value="Login" />
+				</form>
+				
+					
+					
+				</div>
+			</div>
+
+		</div>
+	<!-- End Body -->
+	</div>

@@ -1,0 +1,39 @@
+<div id="header">
+	<div id="course-logo">
+		<a href="<%= root_path %>" title="back to home page"><%= image_tag("layout-logo.png") %></a>
+	</div>
+	<div id="greet">
+		<!-- NOT LOGGED IN -->
+		<% if signed_in? %>
+			<p>Hello, 
+				<%= link_to "#{current_user.firstname} #{current_user.lastname}", current_user %><br/>
+				<%= link_to "Sign out", logout_path %>
+			</p>
+			
+			
+		<% else %>
+			<p>Have an account? <%= link_to 'Sign in', root_path %></p>
+			<p><%= link_to 'Register', root_path  %></p>
+		<% end %>
+	</div>
+
+	<div id="search">
+		<form action="#" id="search_form">
+			<input type="text" id="search_text" name="search_text" placeholder="Search"/>
+			<input type="submit" value="Search" />
+		</form>		
+	</div>
+<!--
+	<div id="cse" style="width: 100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript"> 
+  google.load('search', '1', {language : 'en', style : google.loader.themes.V2_DEFAULT});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+      '016414192644758448665:ibv3kx33oqa', customSearchOptions);
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    customSearchControl.draw('cse');
+  }, true);
+</script>
+-->
+</div>

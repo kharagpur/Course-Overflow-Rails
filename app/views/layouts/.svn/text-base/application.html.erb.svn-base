@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= full_title(yield(:title))%></title>
+	<%= stylesheet_link_tag    "reset.css", :media => "all" %>
+	<%= stylesheet_link_tag    "inc.browsecourses.css", :media => "all" %>
+	<%= stylesheet_link_tag    @stylesheet, :media => "all" %>
+	<%= stylesheet_link_tag    "flash.css", :media => "all" %>
+	<%= yield :stylesheet_includes %>
+	<%= javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"%>
+	
+	<%= csrf_meta_tags %>
+	
+	
+	
+</head>
+<body>
+	
+	<!-- Browse Courses Drawer -->
+	<%= render 'layouts/browse_courses' %>
+	<!-- Begin Browse Courses -->
+
+	<!-- End Browse Courses -->
+<div class="flash"></div>
+ 	<% flash.each do |key, value| %>
+	<div class="flash <%= key %>"><%= value %></div>
+		<% end %>
+	
+ <%= yield %>
+
+<div style="width: 1000px; border: 3px solid #ff0000; margin: 20px auto; padding: 20px; background-color: #fafafa; font-family: Tahoma; color: #444; font-size: 90%;">
+	<%= debug(params) if Rails.env.development? %> 
+</div>
+
+<%= javascript_include_tag "home.js" %>
+<%= yield :javascript_includes %>
+</body>
+</html>
+
+
+
+
+

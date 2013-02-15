@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/inflections.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/session_store.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/secret_token.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/backtrace_silencers.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/mime_types.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/config/initializers/wrap_parameters.rb
+END

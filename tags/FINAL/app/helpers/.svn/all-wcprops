@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers
+END
+pages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/pages_helper.rb
+END
+topics_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/topics_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/users_helper.rb
+END
+analogies_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/analogies_helper.rb
+END
+answers_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/answers_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/application_helper.rb
+END
+courses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/courses_helper.rb
+END
+departments_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/departments_helper.rb
+END
+sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/sessions_helper.rb
+END
+videos_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/videos_helper.rb
+END
+questions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/questions_helper.rb
+END
+definitions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/definitions_helper.rb
+END
+photos_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/app/helpers/photos_helper.rb
+END

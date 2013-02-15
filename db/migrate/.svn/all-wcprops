@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/237/COURSE-OVERFLOW/RAILS/db/migrate
+END
+20120326023252_create_contents.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120326023252_create_contents.rb
+END
+20120409200914_add_user_id_column_to_photos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/216/COURSE-OVERFLOW/RAILS/db/migrate/20120409200914_add_user_id_column_to_photos.rb
+END
+20120326025537_create_videos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/187/COURSE-OVERFLOW/RAILS/db/migrate/20120326025537_create_videos.rb
+END
+20120408213010_add_columns_to.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/196/COURSE-OVERFLOW/RAILS/db/migrate/20120408213010_add_columns_to.rb
+END
+20120328080741_create_questions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/142/COURSE-OVERFLOW/RAILS/db/migrate/20120328080741_create_questions.rb
+END
+20120412053117_create_definition_votes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/237/COURSE-OVERFLOW/RAILS/db/migrate/20120412053117_create_definition_votes.rb
+END
+20120412053052_create_analogy_votes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/237/COURSE-OVERFLOW/RAILS/db/migrate/20120412053052_create_analogy_votes.rb
+END
+20120326023754_create_analogies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/187/COURSE-OVERFLOW/RAILS/db/migrate/20120326023754_create_analogies.rb
+END
+20120401193756_create_votes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/174/COURSE-OVERFLOW/RAILS/db/migrate/20120401193756_create_votes.rb
+END
+20120322092041_add_email_uniqueness_index.rb
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120322092041_add_email_uniqueness_index.rb
+END
+20120408211317_change_column_name.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/196/COURSE-OVERFLOW/RAILS/db/migrate/20120408211317_change_column_name.rb
+END
+20120322072439_add_salt_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120322072439_add_salt_to_users.rb
+END
+20120322092159_add_password_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120322092159_add_password_to_users.rb
+END
+20120408202623_change_column_name_one.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/202/COURSE-OVERFLOW/RAILS/db/migrate/20120408202623_change_column_name_one.rb
+END
+20120326020810_create_departments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120326020810_create_departments.rb
+END
+20120412053142_create_video_votes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/237/COURSE-OVERFLOW/RAILS/db/migrate/20120412053142_create_video_votes.rb
+END
+20120401194423_create_answers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/174/COURSE-OVERFLOW/RAILS/db/migrate/20120401194423_create_answers.rb
+END
+20120326021855_create_courses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120326021855_create_courses.rb
+END
+20120322090211_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/118/COURSE-OVERFLOW/RAILS/db/migrate/20120322090211_create_users.rb
+END

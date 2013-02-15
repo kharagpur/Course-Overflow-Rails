@@ -1,0 +1,4 @@
+<!--topic is an instance variable that contains all topics>
+<h1><% @topic.each do |d| %></h1>
+<%= d.title%>
+<%end %>

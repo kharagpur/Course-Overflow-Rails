@@ -1,0 +1,32 @@
+
+<% @stylesheet = "popup.css"%>
+
+	<div class="popup">
+			<div class="popup_content">
+				
+				<!--Topic form-->
+				<div class="title">
+					Add New Topic
+				</div>
+				<div class="definition_title">
+					<table>
+								New Photo for <%= %>#@topic.title%>:
+								<tr>
+									<th>
+										
+									</th>
+									<td>								
+									<%=	f.text_field(:description) %>																
+									</td>
+									
+									<td>												
+									<%=	f.file_field(:image_file) %>									
+									</td>
+					
+								</tr>
+					</table>
+
+			</div>				
+	</div>
+</div>
+

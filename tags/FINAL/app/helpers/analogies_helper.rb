@@ -1,0 +1,2 @@
+module AnalogiesHelper
+end

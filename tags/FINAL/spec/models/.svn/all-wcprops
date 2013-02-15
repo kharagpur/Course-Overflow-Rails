@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models
+END
+department_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/department_spec.rb
+END
+video_vote_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/video_vote_spec.rb
+END
+definition_vote_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/definition_vote_spec.rb
+END
+video_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/video_spec.rb
+END
+analogy_vote_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/analogy_vote_spec.rb
+END
+question_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/question_spec.rb
+END
+definition_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/definition_spec.rb
+END
+analogy_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/analogy_spec.rb
+END
+content_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/content_spec.rb
+END
+vote_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/vote_spec.rb
+END
+user_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/user_spec.rb
+END
+answer_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/answer_spec.rb
+END
+course_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/spec/models/course_spec.rb
+END

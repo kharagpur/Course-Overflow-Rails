@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>CMPT 300 - Operating Systems | Course Overflow</title>
+	<link rel="stylesheet" href="css/inc.reset.css" />
+	<link rel="stylesheet" href="css/inc.browsecourses.css "/>
+	<link rel="stylesheet" href="css/list_questions.css" />
+</head>
+<body>
+<!-- Begin Browse Courses -->
+	<div id="browse-courses">
+		<div id="browse-courses-inner">
+			<div id="departments">
+				<h1>Departments</h1>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+			</div>
+			<div id="courses">
+				<h1>Courses</h1>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="browse-btn-wrap">
+		<a href="#" id="browse-btn">Browse Courses</a>
+	</div>
+<!-- End Browse Courses -->
+
+	<div id="wrapper">
+	<!-- Begin Header -->
+		<div id="header">
+			<div id="course-logo">
+				<img src="images/layout-logo.png"/>
+			</div>
+			<div id="greet">
+				<!-- NOT LOGGED IN -->
+				<p>Have an account? <a href="#">Sign-In</a></p>
+				<p><a href="#">Create an account</a></p>
+				<!--
+				<p>Hello,
+					<a href="#">Peter Zenger</a>
+				</p>-->
+			</div>
+
+			<div id="search">
+				<form action="#" id="search_form">
+					<input type="text" id="search_text" name="search_text" placeholder="Search"/>
+					<input type="submit" value="Search" />
+				</form>
+			</div>
+		</div>
+	<!-- End Header -->
+	<!-- Begin Body -->
+		<div id="discussion_title">
+			<h1>CMPT 300 - Operating Systems</h1>
+			<h2>What four conditions must be met to get a deadlock?</h2> 
+			<p>
+				Can someone explain to me how the four conditions if met are conclusive to a deadlock? I am having trouble understanding this even after reading the textbook.
+			</p>
+			<pre>some random quote of work and stuff here</pre>
+			<div class="question_asker">
+					<img src="images/peter-zenger.jpeg" alt="Peter Zenger" />
+					<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+			</div>
+		</div>
+
+		<!-- Begin Listing Questions -->
+
+		<h1 class="answers_title"><span>Answers</span></h1>
+		<!-- First Question -->
+		<div class="question_wrapper">
+			<div class="viewsbox">
+				<div class="count">
+					<h1 class="answers">123</h1>
+					<p>Votes</p>
+				</div>
+				<p class="vote">
+					<a href="#" class="upvote"><img src="images/thumbs-up.png" alt="Upvote"></a>
+					<a href="#" class="downvote"><img src="images/thumbs-down.png" alt="Downvote"></a>
+				</p>
+			</div>
+			<div class="question_box">
+				<h1>
+					<a href="#">What four conditions must be met to get a deadlock?</a>
+				</h1>
+				<div class="an_answer">
+					Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp. Herpa Derpa derp derp.
+				</div>
+				<div class="question_asker">
+					<img src="images/peter-zenger.jpeg" alt="Peter Zenger" />
+					<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+				</div>
+			</div>
+		</div>
+		<!-- End Listing Questions -->
+
+		<div id="your_answer">
+		<!-- WMD -->
+		<h1 class="answers_title"><span>Your Answer</span></h1>
+		
+			<form action="#">
+				<textarea name="your_answer_md" id="your_answer_md"></textarea><br/>
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+	<!-- End Body -->
+	</div>
+<!-- Javascript -->
+<script type="text/javascript" src="js/wmd/wmd.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+</body>
+</html>

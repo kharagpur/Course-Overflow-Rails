@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models
+END
+department_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/department_spec.rb
+END
+video_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/video_spec.rb
+END
+question_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/question_spec.rb
+END
+definition_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/definition_spec.rb
+END
+analogy_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/analogy_spec.rb
+END
+content_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/content_spec.rb
+END
+user_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/user_spec.rb
+END
+course_spec.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/spec/models/course_spec.rb
+END

@@ -1,0 +1,21 @@
+<div id = "wrapper-form">
+<!--form for a Topic-->
+<!-- Begin Header -->
+	<%= render 'layouts/common_header' %>
+<!-- End Header -->	
+	<div id="content-body">
+		<div class="popup-form">	
+			<%= form_for(:topic, :url=>{:controller => "topics", :action => 'create'}) do |f|  %>
+				<%= render :partial =>"form", :locals => {:f => f }%> 
+				<%= f.hidden_field :course_id, :value => @course.id %>
+				<div class = "popup-form" >
+					<div class = "popup_content-form" >
+						<%= submit_tag ("Add New Topic")%>	
+					</div>
+				</div>
+			<% end %>
+		</div>
+	</div>
+
+
+</div>

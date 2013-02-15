@@ -1,0 +1,117 @@
+<% provide(:title, @course.title + ' Discussion')%>
+<% content_for :javascript_includes do %>
+	<%= javascript_include_tag "wmd/wmd.js" %>
+	<%= javascript_include_tag "google-code-prettify/prettify.js" %>
+	<%= javascript_include_tag "prettycode.js" %>
+	<%= javascript_include_tag "answers.js" %>
+<% end %>
+<div id="wrapper">
+<!-- Begin Header -->
+	<%= render 'layouts/common_header' %>
+<!-- End Header -->
+<!-- Begin Body -->
+
+	<div id="discussion_title">
+		<h1>
+			<%= @course.title %>
+		</h1>
+		<ul>
+			<li><a href="<%= "/courses/#{@course.id}/questions"%>">Newest</a></li>
+			<li class="selected"><a href="<%= "/courses/#{@course.id}/questions?order=unanswered"%>">Unanswered</a></li>
+		</ul>
+	</div>
+
+	<!-- Begin Listing Questions -->
+	<% @lists.each do |list| %>
+	<% user = list.user%>
+	<div class="question_wrapper">
+		<div class="viewsbox">
+			<div class="count">
+				<h1 class="answers"><%= list["num_answers"] %></h1>
+				<p>Answers</p>
+			</div>
+		</div>
+		<div class="question_box">
+			<h1>
+				<a href="question/<%= list.id %>" title='"<%= list.title %>" Discussion Question and Answers'>
+					<%= list.title %>
+				</a>
+			</h1>
+			<div class="excerpt">
+				<%= raw(markdown(list.description)) %>
+			</div>
+			<div class="question_asker">
+				<%= image_tag('peter-zenger.jpeg') %>
+				<span class="pos">Posted by 
+					<a href="<%= user_path(list.user_id) %>">
+						<%= user.firstname + ' ' + user.lastname%>
+					</a> 
+					<span class="timestamp">
+						(<%= list.created_at.strftime("Created on: %m/%d/%Y")  %>)
+					</span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<% end %>
+
+	<!-- BACKUP
+	<div class="question_wrapper">
+		<div class="viewsbox">
+			<div class="count">
+				<h1 class="answers">0</h1>
+				<p>Answers</p>
+			</div>
+
+			<div class="count views">
+				<h1>0</h1>
+				<p>Views</p>
+			</div>
+		</div>
+		<div class="question_box">
+			<h1>
+				<a href="#">What four conditions must be met to get a deadlock?</a>
+			</h1>
+			<div class="excerpt">
+				Can someone explain to me how the four conditions if met are conclusive to a deadlock? I am having trouble understanding this even after reading the textbook.
+			</div>
+			<div class="question_asker">
+				<img src="images/peter-zenger.jpeg" alt="Peter Zenger" />
+				<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+			</div>
+		</div>
+	</div>
+	-->
+
+	<!-- End Listing Question-->
+	<%= will_paginate @lists%>
+
+<!-- 	<div class="pagination">
+		<a href="#" class="selected">1</a>
+		<a href="#">2</a>
+		<a href="#">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		&nbsp;...&nbsp;
+		<a href="#">12345</a>
+	</div> -->
+	<% if signed_in? %>
+	<div id="your_question">
+	<!-- WMD -->
+	<h1 class="answers_title"><span>Post a Question</span></h1>
+	
+		<%= form_for(@question) do |f| %>
+			<%= f.label :title, 'Your Question: ' %>
+			<%= f.text_field :title, id: 'your_question_title', maxlength: 50 %>
+			<%= f.text_area :description, id: "your_answer_md", maxlength: 250 %><br/>
+			<%= f.hidden_field :course_id, value: @course.id %>
+			<%= f.submit "Submit" %>
+		<% end %>
+	</div>
+	<% else %>
+	<h1 class="answers_title"><%= link_to "Sign In", root_path %> to submit your own answer! </h1> 
+	<% end %>
+
+	<!-- End Listing Questions -->
+<!-- End Body -->
+</div>

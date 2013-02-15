@@ -1,0 +1,27 @@
+<% @stylesheet = "popup.css"%>
+
+	<div class="popup-form">
+			<div class="popup_content-form">
+				
+				<!--Topic form-->
+				<div class="title">
+					Add New Topic
+				</div>
+				<div class="title">
+					<table>
+							
+								<tr>
+									<th>
+										<h2>Title:</h2>
+									</th>
+									<td>
+									<%=	f.text_field(:title) %>
+									<%=	f.hidden_field(:course_id) %>
+									</td>
+					
+								</tr>
+					</table>
+
+			</div>				
+	</div>
+</div>

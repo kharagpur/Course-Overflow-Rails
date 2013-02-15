@@ -1,0 +1,36 @@
+@light-blue: #d3f4ff;
+@dark-blue: #38c9ff;
+
+//Mixins
+
+.box-shadow(@h, @v, @blur, @c) {
+	box-shadow: @h @v @blur @c;
+	-webkit-box-shadow: @h @v @blur @c;
+	-moz-box-shadow: @h @v @blur @c;
+}
+
+.border-radius(@radius: 5px) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+.lightblue-text {
+  color: #d3f4ff;
+}
+.darkblue-text {
+  color: #38c9ff;
+}
+
+@font-face {
+  font-family: 'Armata';
+  src: url('armata-regular-webfont.eot');
+  src: url('armata-regular-webfont.eot?#iefix') format('embedded-opentype'), url('armata-regular-webfont.woff') format('woff'), url('armata-regular-webfont.ttf') format('truetype'), url('armata-regular-webfont.svg#') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+  font-size: 100%;
+}

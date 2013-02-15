@@ -1,0 +1,69 @@
+#browse-courses {
+  background-color: #676767;
+  color: #fff;
+  display: none;
+  padding: 15px 0;
+  overflow: hidden;
+}
+#browse-courses h1 {
+  color: #d3f4ff;
+  font-weight: bold;
+  font-size: 110%;
+  margin-bottom: 10px;
+}
+#browse-courses ul {
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+}
+#browse-courses li {
+  margin-bottom: 4px;
+}
+#browse-courses a {
+  background: url("../assets/list-icon.png") 0px 2px no-repeat;
+  color: #fff;
+  display: inline-block;
+  font-size: 90%;
+  padding-left: 15px;
+  text-decoration: none;
+}
+#browse-courses a:hover {
+  text-decoration: underline;
+}
+#browse-courses-inner {
+  margin: 0 auto;
+  width: 1096px;
+}
+#browse-courses-inner > div {
+  float: left;
+}
+#departments {
+  width: 465px;
+  border-right: 1px solid #000;
+  box-shadow: 1px 0 0 #ffffff;
+  -webkit-box-shadow: 1px 0 0 #ffffff;
+  -moz-box-shadow: 1px 0 0 #ffffff;
+}
+#courses {
+  padding-left: 50px;
+}
+#browse-btn-wrap {
+  border-top: 8px solid #38c9ff;
+}
+#browse-btn-wrap a {
+  background-color: #38c9ff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+  font-family: Armata, sans-serif;
+  font-size: 80%;
+  color: #333;
+  padding: 0px 8px 8px 8px;
+  position: relative;
+  top: -3px;
+  left: 75%;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px #aaaaaa;
+  -webkit-box-shadow: 0px 4px 8px #aaaaaa;
+  -moz-box-shadow: 0px 4px 8px #aaaaaa;
+}

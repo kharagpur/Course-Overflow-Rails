@@ -1,0 +1,23 @@
+<div id="header">
+	<div id="course-logo">
+		<%= image_tag("layout-logo.png") %>
+	</div>
+	<div id="greet">
+		<!-- NOT LOGGED IN -->
+		<% if signed_in? %>
+			<p>Hello, 
+				<%= link_to "#{current_user.firstname} #{current_user.lastname}", current_user %>
+			</p>
+		<% else %>
+			<p>Have an account? <%= link_to 'Sign in', root_path %></p>
+			<p><%= link_to 'Register', root_path  %></p>
+		<% end %>
+	</div>
+
+	<div id="search">
+		<form action="#" id="search_form">
+			<input type="text" id="search_text" name="search_text" placeholder="Search"/>
+			<input type="submit" value="Search" />
+		</form>
+	</div>
+</div>

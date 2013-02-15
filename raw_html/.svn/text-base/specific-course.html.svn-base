@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>CMPT 300 - Operating Systems | Course Overflow</title>
+	<link rel="stylesheet" href="css/inc.reset.css" />
+	<link rel="stylesheet" href="css/inc.browsecourses.css "/>
+	<link rel="stylesheet" href="css/content.css" />
+</head>
+<body>
+<!-- Begin Browse Courses -->
+	<div id="browse-courses">
+		<div id="browse-courses-inner">
+			<div id="departments">
+				<h1>Departments</h1>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+			</div>
+			<div id="courses">
+				<h1>Courses</h1>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+					<li><a href="#">Actuarial Mathematics</a></li>
+					<li><a href="#">Archaeology</a></li>
+					<li><a href="#">Biological Sciences</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="browse-btn-wrap">
+		<a href="#" id="browse-btn">Browse Courses</a>
+	</div>
+<!-- End Browse Courses -->
+
+	<div id="wrapper">
+	<!-- Begin Header -->
+		<div id="header">
+			<div id="course-logo">
+				<img src="images/layout-logo.png"/>
+			</div>
+			<div id="greet">
+				<!-- NOT LOGGED IN -->
+				<p>Have an account? <a href="#">Sign-In</a></p>
+				<p><a href="#">Create an account</a></p>
+				<!--
+				<p>Hello,
+					<a href="#">Peter Zenger</a>
+				</p>-->
+			</div>
+
+			<div id="search">
+				<form action="#" id="search_form">
+					<input type="text" id="search_text" name="search_text" placeholder="Search"/>
+					<input type="submit" value="Search" />
+				</form>
+			</div>
+		</div>
+	<!-- End Header -->
+	<!-- Begin Body -->
+		<div id="course-title">
+			CMPT 300 - Operating Systems
+			<div id="add-topic">
+			<a href="#"><div id="add-topic-img"><img src="images/add-topic.png" class="add-topic-btn" alt="Add New Topic"/></div><div id="add-topic-txt">Add New Topic</div></a>
+			</div>
+		</div>
+		<div id="content-body">
+			<div class="concept-container">
+			<div class="concept-title">Deadlock</div>
+			<div class="concept-options"><a href="#">View discussion</a> | <a href="#">Edit</a></div>
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Definition
+						</div>
+						<div class="component-options">
+						<a href="#">More Definitions</a> | <a href="#">Add New Definition</a>
+						</div>
+					</div>
+					<div class="component-panel">
+					<p>Best definition of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">KKW</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Analogy
+						</div>
+						<div class="component-options">
+						<a href="#">More Analogies</a> | <a href="#">Add New Analogy</a>
+						</div>
+					</div>
+					<div class="component-panel">
+					<p>Best analogy.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">Sharon</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Video
+						</div>
+						<div class="component-options">
+						<a href="#">More Videos</a> | <a href="#">Add New Video</a>
+						</div>
+					</div>
+					<div class="component-panel">
+						<div class="video-preview">
+						<img src="images/Dawkins.jpg" class="video" alt="video preview"/>
+						<a href="#">Video Title</a>
+						</div>
+						<div class="video-description">
+						<p>Youtube Description</p>
+						First part (of five) of the 2006 documentary The God Delusion. Biologist and professor Richard Dawkins explores the unproven beliefs that are treated as factual by many religions and the extremes to which some followers have taken them.
+						</div>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">Alvinal</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		<div class="concept-container">
+			<div class="concept-title">Virtual Pages</div>
+			<div class="concept-options"><a href="#">View discussion</a> | <a href="#">Edit</a></div>
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Definition
+						</div>
+						<div class="component-options">
+						<a href="#">More Definitions</a> | <a href="#">Add New Definition</a>
+						</div>
+					</div>
+					<div class="component-panel">
+					<p>Best definition of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">KKW</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Analogy
+						</div>
+						<div class="component-options">
+						<a href="#">More Analogies</a> | <a href="#">Add New Analogy</a>
+						</div>
+					</div>
+					<div class="component-panel">
+					<p>Best analogy.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">Sharon</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Video
+						</div>
+						<div class="component-options">
+						<a href="#">More Videos</a> | <a href="#">Add New Video</a>
+						</div>
+					</div>
+					<div class="component-panel">
+						<div class="video-preview">
+						<img src="images/Dawkins.jpg" class="video" alt="video preview"/>
+						<a href="#">Video Title</a>
+						</div>
+						<div class="video-description">
+						<p>Youtube Description</p>
+						First part (of five) of the 2006 documentary The God Delusion. Biologist and professor Richard Dawkins explores the unproven beliefs that are treated as factual by many religions and the extremes to which some followers have taken them.
+						</div>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">Alvinal</a>
+							</div>
+							<div class="component-score-text">
+							300<img src="images/thumbs-up.png" alt="rate up"/>
+							</div>
+							<div class="component-score-text">
+							25<img src="images/thumbs-down.png" alt="rate down"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	<!-- End Body -->
+	</div>
+<!-- Javascript -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+</body>
+</html>

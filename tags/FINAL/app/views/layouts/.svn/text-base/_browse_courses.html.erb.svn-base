@@ -1,0 +1,15 @@
+<div id="browse-courses">
+	<div id="browse-courses-inner">
+		<div id="departments">
+			
+			<h1>Departments</h1>
+			<%= get_departments %>
+		</div>
+		<div id="courses">
+			<h1 id="courses-list-header">Courses</h1>
+		</div>
+	</div>
+</div>
+<div id="browse-btn-wrap">
+	<a href="#" id="browse-btn">Browse Courses</a>
+</div>

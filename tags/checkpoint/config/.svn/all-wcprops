@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config/database.yml
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config/application.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/164/COURSE-OVERFLOW/RAILS/tags/checkpoint/config/environment.rb
+END

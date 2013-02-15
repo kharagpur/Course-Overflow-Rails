@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate
+END
+20120326023252_create_contents.rb
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326023252_create_contents.rb
+END
+20120322092041_add_email_uniqueness_index.rb
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120322092041_add_email_uniqueness_index.rb
+END
+20120326025537_create_videos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326025537_create_videos.rb
+END
+20120322072439_add_salt_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120322072439_add_salt_to_users.rb
+END
+20120322092159_add_password_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120322092159_add_password_to_users.rb
+END
+20120328080741_create_questions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120328080741_create_questions.rb
+END
+20120326020810_create_departments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326020810_create_departments.rb
+END
+20120326023754_create_analogies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326023754_create_analogies.rb
+END
+20120326021855_create_courses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326021855_create_courses.rb
+END
+20120326030551_create_definitions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120326030551_create_definitions.rb
+END
+20120322090211_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/db/migrate/20120322090211_create_users.rb
+END

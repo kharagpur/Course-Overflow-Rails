@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile | Course Overflow</title>
+	<link rel="stylesheet" href="css/inc.reset.css" /> <!--RESET-->
+	<link rel="stylesheet" href="css/inc.browsecourses.css"> <!--BROWSE COURSES-->
+	<link rel="stylesheet" href="css/profile.css"> <!--PROFILE BODY-->
+</head>
+<body>
+	<!--Begin Browse Courses -->
+		<div id="browse-courses">
+			<div id="browse-courses-inner">
+				<div id="departments">
+					<h1>Departments</h1>
+					<ul>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+					</ul>
+
+					<ul>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+					</ul>
+				</div>
+				<div id="courses">
+					<h1>Courses</h1>
+					<ul>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+						<li><a href="#">Actuarial Mathematics</a></li>
+						<li><a href="#">Archaeology</a></li>
+						<li><a href="#">Biological Sciences</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="browse-btn-wrap">
+			<a href="#" id="browse-btn">Browse Courses</a>
+		</div>
+	<!--End Browse Courses -->
+	<div id="wrapper">
+	<!--Begin Top Bar-->
+		<div id="header">
+			<div id="course-logo">
+				<img src="images/layout-logo.png"/>
+			</div>
+			<div id="greet">
+				<!-- NOT LOGGED IN -->
+				<p>Have an account? <a href="#">Sign-In</a></p>
+				<p><a href="#">Create an account</a></p>
+				<!--
+				<p>Hello,
+					<a href="#">Peter Zenger</a>
+				</p>-->
+			</div>
+
+			<div id="search">
+				<form action="#" id="search_form">
+					<input type="text" id="search_text" name="search_text" placeholder="Search"/>
+					<input type="submit" value="Search" />
+				</form>
+			</div>
+		</div>
+	<!--End Top Bar-->
+	
+	<!--Begin Body-->
+		<div id="profile">
+			<div id="profile-pics">
+				<img src="images/peter-zenger.jpeg" alt="Peter Zenger"/>
+			</div>
+			<div id="profile-info">
+				<p id="profile-name">Peter Zenger</p>
+				<p>Major: Computing Science</p>
+				<p>Academic Status: Under Graduate</p>
+				<p>Overall Rating: B</p>
+				<!--IF USER LOGGED IN-->
+				<p><a href="#">Change Profile Picture</a></p>
+				<p><a href="#">Change Password</a></p>
+			</div>
+		</div>
+		<div id="profile-body">
+			<!--BEGIN CONTRIBUTION-->
+			<p>Contribution</p>
+			<div id="tuple">
+				<!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+				<p id="question"><a href="#">CMPT 300: Deadlock - Definition</a></p>
+				<div id="answer">
+					<p>Best definition of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div id="component-score">
+							<div id="component-score-text">
+							<a href="#">p.zenger</a>
+							</div>
+							<div id="component-score-text">
+							300<img src="images/thumbs-up.png"/>
+							</div>
+							<div id="component-score-text">
+							25<img src="images/thumbs-down.png"/>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div id="tuple">
+				<p id="question"><a href="#">CMPT 300: Scheduling - Analogy</a></p>
+				<div id="answer">
+					<p>Best analogy of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div id="component-score">
+							<div id="component-score-text">
+							<a href="#">p.zenger</a>
+							</div>
+							<div id="component-score-text">
+							300<img src="images/thumbs-up.png"/>
+							</div>
+							<div id="component-score-text">
+							25<img src="images/thumbs-down.png"/>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div id="tuple">
+				<p id="question"><a href="#">CMPT 354: Join - Video</p>
+				<div id="answer">
+					<div id="component-panel">
+						<div id="video-preview">
+						<img src="images/Dawkins.jpg" class="video"/>
+						<a href="#">Video Title</a>
+						</div>
+						<div id="video-description">
+						<p>Youtube Description</p>
+						First part (of five) of the 2006 documentary The God Delusion. Biologist and professor Richard Dawkins explores the unproven beliefs that are treated as factual by many religions and the extremes to which some followers have taken them.
+						</div>
+						<div id="component-score">
+							<div id="component-score-text">
+							<a href="#">p.zenger</a>
+							</div>
+							<div id="component-score-text">
+							300<img src="images/thumbs-up.png"/>
+							</div>
+							<div id="component-score-text">
+							25<img src="images/thumbs-down.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!--END CONTRIBUTION-->
+			<!--BEGIN QUESTION ANSWERED-->
+			<p>Questions Answered</p>
+			<div id="tuple">
+				<!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+				<p id="question"><a href="#">CMPT 300: What is a deadlock?</a></p>
+				<div id="answer">
+					<p>Best definition of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+						<div id="component-score">
+							<div id="component-score-text">
+							<a href="#">p.zenger</a>
+							</div>
+							<div id="component-score-text">
+							300<img src="images/thumbs-up.png"/>
+							</div>
+							<div id="component-score-text">
+							25<img src="images/thumbs-down.png"/>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div id="tuple">
+				<p id="question"><a href="#">CMPT 354: Please explain Natural Join?</a></p>
+				<div id="answer">
+					<p>Best definition of a deadlock.
+					Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt; Mein Busen fühlt sich jugendlich erschüttert Vom Zauberhauch, der euren Zug umwittert.</p>
+					<br>
+					<p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatten steigen auf; Gleich einer alten, halbverklungnen Sage Kommt erste Lieb und Freundschaft mit herauf; Der Schmerz wird neu, es wiederholt die Klage Des Lebens labyrinthisch irren Lauf, Und nennt die Guten, die, um schöne Stunden Vom Glück getäuscht, vor mir hinweggeschwunden.</p>
+					<div id="component-score">
+						<div id="component-score-text">
+							<a href="#">p.zenger</a>
+						</div>
+						<div id="component-score-text">
+							300
+							<img src="images/thumbs-up.png"/>
+						</div>
+						<div id="component-score-text">
+							25
+							<img src="images/thumbs-down.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--END QUESTION ANSWERED-->
+		</div>
+	<!--End Body-->
+	</div>
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/home.js"></script>
+</body>
+</htlm>

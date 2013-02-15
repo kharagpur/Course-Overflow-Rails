@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers
+END
+pages_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/pages_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/application_helper.rb
+END
+courses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/courses_helper.rb
+END
+departments_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/departments_helper.rb
+END
+sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/sessions_helper.rb
+END
+questions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/helpers/questions_helper.rb
+END

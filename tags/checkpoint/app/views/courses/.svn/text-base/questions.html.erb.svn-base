@@ -1,0 +1,99 @@
+	<div id="wrapper">
+	<!-- Begin Header -->
+		<%= render 'layouts/common_header' %>
+	<!-- End Header -->
+	<!-- Begin Body -->
+		<div id="discussion_title">
+			<h1>
+				<%= @course.title %>
+			</h1>
+			<ul>
+				<li class="selected"><a href="#">Newest</a></li>
+				<li><a href="#">Votes</a></li>
+				<li><a href="#">Unanswered</a></li>
+			</ul>
+		</div>
+
+		<!-- Begin Listing Questions -->
+		<% @lists.each do |list| %>
+
+		<div class="question_wrapper">
+			<div class="viewsbox">
+				<div class="count">
+					<h1 class="answers">0</h1>
+					<p>Answers</p>
+				</div>
+
+				<div class="count views">
+					<h1>
+						<% if list.views.nil? %>
+							0
+						<% else %>
+							<%= list.views %>
+						<% end %>
+					</h1>
+					<p>Views</p>
+				</div>
+			</div>
+			<div class="question_box">
+				<h1>
+					<a href="/answers.html" target="_blank">
+						<%= list.title %>
+					</a>
+				</h1>
+				<div class="excerpt">
+					<%= list.description %>
+				</div>
+				<div class="question_asker">
+					<%= image_tag('peter-zenger.jpeg') %>
+					<span class="pos">Posted by 
+						<a href="#">
+							asdfaf
+						</a> <span class="timestamp">(2 minutes ago)</span></span>
+				</div>
+			</div>
+		</div>
+		<% end %>
+
+		<!-- BACKUP
+		<div class="question_wrapper">
+			<div class="viewsbox">
+				<div class="count">
+					<h1 class="answers">0</h1>
+					<p>Answers</p>
+				</div>
+
+				<div class="count views">
+					<h1>0</h1>
+					<p>Views</p>
+				</div>
+			</div>
+			<div class="question_box">
+				<h1>
+					<a href="#">What four conditions must be met to get a deadlock?</a>
+				</h1>
+				<div class="excerpt">
+					Can someone explain to me how the four conditions if met are conclusive to a deadlock? I am having trouble understanding this even after reading the textbook.
+				</div>
+				<div class="question_asker">
+					<img src="images/peter-zenger.jpeg" alt="Peter Zenger" />
+					<span class="pos">Posted by <a href="#">asdfaf</a> <span class="timestamp">(2 minutes ago)</span></span>
+				</div>
+			</div>
+		</div>
+		-->
+
+		<!-- End Listing Question-->
+
+		<div class="pagination">
+			<a href="#" class="selected">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			&nbsp;...&nbsp;
+			<a href="#">12345</a>
+		</div>
+		<!-- End Listing Questions -->
+	<!-- End Body -->
+	</div>

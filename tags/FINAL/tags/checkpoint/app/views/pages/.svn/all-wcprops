@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/views/pages
+END
+home.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/views/pages/home.html.erb
+END
+login.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/views/pages/login.html.erb
+END
+register.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/CMPT470-1121-g-in-house-softwa/!svn/ver/243/COURSE-OVERFLOW/RAILS/tags/FINAL/tags/checkpoint/app/views/pages/register.html.erb
+END

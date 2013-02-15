@@ -1,0 +1,163 @@
+/*
+ * -----------------------------------------
+ *  Course-Overflow General Header
+ * ----------------------------------------- */
+
+@import "include.less";
+
+#content-body {
+  background-color: #e7e7e7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.concept-container {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #38c9ff;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.concept-title {
+  color: #333;
+  font-size: 18pt;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.concept-options {
+  color: #333;
+  font-size: 11pt;
+  float: right;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.concept-options a {
+  color: #38c9ff;
+}
+
+.concept-options a:hover {
+  color: #008abe;
+}
+
+.component {
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 10px;
+}
+
+.component-header {
+  margin-bottom: 5px;
+}
+
+.component-title {
+  color: #333;
+  font-size: 14pt;
+  display: inline;
+}
+
+.component-options {
+  display: inline;
+  color: #333;
+  font-size: 11pt;
+  margin-left: 20px;
+}
+
+.component-options a {
+  color: #38c9ff;
+}
+
+.component-options a:hover {
+  color: #008abe;
+}
+
+.component-panel {
+  font-size: 11pt;
+  color: #333;
+  padding: 10px;
+  background-color: #d3f4ff;
+  display: inline-block;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.component-score {
+  right: 0%;
+  bottom: 0%;
+  position: absolute;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.component-score-text {
+  display: inline;
+  padding-left: 20px;
+}
+
+.component-score-text a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.video-preview {
+  float: left;
+  text-align: center;
+}
+
+.video-description {
+  width: 85%;
+  float: right;
+}
+
+.video {
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  display: block;
+}
+
+/*** TITLE ***/
+
+#course-title {
+  color: #333;
+  font-size: 180%;
+}
+
+#add-topic {
+  font-size: 14pt;
+}
+
+#add-topic a {
+  color: #38c9ff;
+}
+
+#add-topic a:hover {
+  color: #008abe;
+}
+
+.add-topic-btn {
+  vertical-align:middle;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#add-topic-txt {
+  padding: 10px;
+  display: inline;
+  vertical-align: middle;
+}
+
+#add-topic-img {
+  display: inline;
+}

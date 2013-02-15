@@ -1,0 +1,126 @@
+<div id="wrapper">
+<!--Begin Top Bar-->
+<!-- Begin Header -->
+                <%= render 'layouts/common_header' %>
+        <!-- End Header -->
+        <!--End Top Bar-->
+		<div id="course-title">
+			<%= @title %>
+			<div id="add-topic">
+			<a href="#"><div id="add-topic-img"><%= image_tag("add-topic.png", :class => "add-topic-btn", :alt => "Add New Topic")%></div><div id="add-topic-txt">Add New Topic</div></a>
+			</div>
+		</div>
+		<div id="content-body">
+			<% @concept.each do |c| %>
+			<div class="concept-container">
+			<div class="concept-title"><%= c.title %></div>
+			<div class="concept-options"><a href="/courses/17/questions">View discussion</a> | <a href="#">Edit</a></div>
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Definition
+						</div>
+						<div class="component-options">
+						<a href="/popup.html" target="_blank">More Definitions</a> | <a href="#">Add New Definition</a>
+						</div>
+					</div>
+					<div class="component-panel">
+						<% @def = get_defs(c) %>
+						<p>
+						<% @def.each do |d| %>
+							<%= d.description %>
+						</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">
+							<% if not d.user.nil? %>
+							<%= d.user.firstname %> <%= d.user.lastname %>
+							<% end %>
+							</a>
+							</div>
+							<div class="component-score-text">
+							<%= d.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+							</div>
+							<div class="component-score-text">
+							<%= d.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+							</div>
+						</div>
+						<% end %>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Analogy
+						</div>
+						<div class="component-options">
+						<a href="#">More Analogies</a> | <a href="#">Add New Analogy</a>
+						</div>
+					</div>
+					<div class="component-panel">
+						<% @analog = Analogy.limit(1).where(:content_id => c.id).order("rating_up - rating_down DESC") %>
+						<p>
+						<% @analog.each do |a| %>
+							<%= a.description %>
+						</p>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">
+							<% if not a.user.nil? %>
+							<%= a.user.firstname %> <%= a.user.lastname %>
+							<% end %>
+							</a>
+							</div>
+							<div class="component-score-text">
+							<%= a.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+							</div>
+							<div class="component-score-text">
+							<%= a.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+							</div>
+						</div>
+						<% end %>
+					</div>
+				</div>
+				
+				<div class="component">
+					<div class="component-header">
+						<div class="component-title">
+						Video
+						</div>
+						<div class="component-options">
+						<a href="#">More Videos</a> | <a href="#">Add New Video</a>
+						</div>
+					</div>
+					<div class="component-panel">
+						<% @vid = Video.limit(1).where(:content_id => c.id).order("rating_up - rating_down DESC") %>
+						<% @vid.each do |v| %>
+						<div class="video-preview">
+						<!-- Insert video preview image here -->
+						<%= image_tag("Dawkins.jpg", :class => "video", :alt => "video preview")%>
+						<a href="#"><%= v.title %></a>
+						</div>
+						<div class="video-description">
+						<p><%= v.description %></p>
+						</div>
+						<div class="component-score">
+							<div class="component-score-text">
+							<a href="#">
+							<% if not v.user.nil? %>
+							<%= v.user.firstname %> <%= v.user.lastname %>
+							<% end %>
+							</a>
+							</div>
+							<div class="component-score-text">
+							<%= v.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+							</div>
+							<div class="component-score-text">
+							<%= v.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+							</div>
+						</div>
+						<% end %>
+					</div>
+				</div>
+			</div>
+<% end %>
+	</div>

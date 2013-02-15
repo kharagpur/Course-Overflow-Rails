@@ -1,0 +1,219 @@
+<% provide(:title, @title)%>
+<% content_for :javascript_includes do %>
+	<%= javascript_include_tag "course-vote.js" %>
+<% end %>
+<div id="wrapper">
+
+<!--Begin Top Bar-->
+
+<!-- Begin Header -->
+	<%= render 'layouts/common_header' %>
+	<!-- End Header -->
+
+	<!--End Top Bar-->
+
+	<!-- Begin Course Title -->
+	<div id="course-title">
+		<%= @title %>
+		
+		<div id="add-topic">
+		<div id="add-topic-img"><%= link_to image_tag("add-topic.png", :class => "add-topic-btn", :alt => "Add New Topic"), "#{@course.id}/new"%></div><div id="add-topic-txt"><%= link_to "Add New Topic", "#{@course.id}/new" %></div>
+		</div>
+	</div>
+	
+	<!-- End Course Title -->
+
+
+	<!-- Begin Display course specific topics -->
+	<div id="content-body">
+		
+		<!-- Use the same template for each topic -->
+		<% @concept.each do |c| %>
+
+		<!-- Begin topic -->
+		<div class="concept-container">
+
+		<!-- Topic title -->
+		
+		<div class="concept-title"><%= c.title%> </div>
+
+		<!-- Topic options -->
+		<div class="concept-options"><a href="/courses/17/questions">View discussion</a> | <%= link_to "Edit", "/topics/#{c.id}/edit"%></div>
+
+			<!-- Begin definition content -->
+			<div class="component">
+				<div class="component-header">
+
+					<!-- Title content -->
+					<div class="component-title">
+					Definition
+					</div>
+					<div class="component-options">
+					<%= link_to "More Definitions", "/topics/#{c.id}" %> | 
+				
+					<%= link_to "Add New Definition", "/topics/#{c.id}/definitions" %>
+					
+					</div>
+				</div>
+
+				<!-- Begin best definition display -->
+				<div class="component-panel">
+
+					<!-- Helper function to retrieve the best definition for this topic -->
+					<% @def = get_defs(c) %>
+
+					<!-- Begin best description -->
+					<p>
+					
+					<% @def.each do |d| %>
+						<%= d.description %>
+					</p>
+					<!-- End best description -->
+
+					<!-- Begin rating display -->
+					<div class="component-score">
+						<div class="component-score-text">
+						<a href="#">
+						<% if not d.user.nil? %>
+						<%= link_to"#{d.user.firstname } #{d.user.lastname}", d.user %> <%=  %>
+						<% end %>
+						</a>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_upvotes("definition", d.id) %></span>
+						<a href="/votes/definition/<%= d.id %>" title="Upvote" class="definition_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_downvotes("definition", d.id) %></span>
+						<a href="/votes/definition/<%= d.id %>" title="Downvote" class="definition_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+						</div>
+					</div>
+					<!-- End rating display -->
+
+					<% end %>
+				</div>
+				<!-- End best definition display -->
+
+			</div>
+			<!-- End definition content -->
+
+			<!-- Begin analogy content -->
+			<div class="component">
+				<div class="component-header">
+
+					<!-- Title content -->
+					<div class="component-title">
+					Analogy
+					</div>
+					<div class="component-options">
+					<%= link_to "More Analogies", "/topics/#{c.id}" %>  | <%= link_to "Add New Analogy", "/topics/#{c.id}/analogies" %>
+					</div>
+				</div>
+
+				<!-- Begin best analogy display -->
+				<div class="component-panel">
+
+					<!-- Helper function to retrieve the best analogy for this topic -->
+					<% @analog = get_analogs(c) %>
+
+					<!-- Begin best analogy -->
+					<p>
+					<% @analog.each do |a| %>
+						<%= a.description %>
+
+					</p>
+					<!-- End best analogy -->
+
+					<!-- Begin rating display -->
+					<div class="component-score">
+						<div class="component-score-text">
+						<% if not a.user.nil? %>
+						<%= link_to"#{a.user.firstname } #{a.user.lastname}", a.user %>
+						<% end %>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_upvotes("analogy", a.id) %></span>
+						<a href="/votes/analogy/<%= a.id %>" title="Upvote" class="analogy_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_downvotes("analogy", a.id) %></span>
+						<a href="/votes/analogy/<%= a.id %>" title="Downvote" class="analogy_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+						</div>
+					</div>
+					<!-- End rating display -->
+
+					<% end %>
+				</div>
+				<!-- End best analogy display -->
+
+			</div>
+			<!-- End analogy content -->
+			
+			<!-- Begin video content -->
+			<div class="component">
+				<div class="component-header">
+
+					<!-- Title content -->
+					<div class="component-title">
+					Video
+					</div>
+					<div class="component-options">
+					<%= link_to "More Video Links", "/topics/#{c.id}" %> |<%= link_to "Add Video Link", "/topics/#{c.id}/videos" %>  
+					</div>
+				</div>
+
+				<!-- Begin best video display -->
+				<div class="component-panel">
+
+					<!-- Helper function to retrieve the best video for this topic -->
+					<% @vid = get_videos(c) %>
+					<% @vid.each do |v| %>
+					<div class="video-preview">
+
+					<!-- Video title -->
+					<p><%= v.title %></p>
+					
+
+					</div>
+					<div class="video-description">
+
+					<!-- Begin video description -->
+					<p><%= v.description %></p>
+					<!-- End video description -->
+
+					</div>
+
+					<!-- Begin rating display -->
+					<div class="component-score">
+						<div class="component-score-text">
+						<a href="#">
+						<% if not v.user.nil? %>
+						<%= link_to"#{v.user.firstname } #{v.user.lastname}", v.user %>
+						<% end %>
+						</a>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_upvotes("video", v.id) %></span>
+						<a href="/votes/video/<%= v.id %>" title="Upvote" class="video_upvote"><%= image_tag("thumbs-up.png", :alt => "Rate up")%></a>
+						</div>
+						<div class="component-score-text">
+						<span><%= num_downvotes("video", v.id) %></span>
+						<a href="/votes/video/<%= v.id %>" title="Downvote" class="video_downvote"><%= image_tag("thumbs-down.png", :alt => "Rate down")%></a>
+						</div>
+					</div>
+					<!-- End rating display -->
+					
+					<% end %>
+				</div>
+				<!-- End best video display -->
+
+			</div>
+			<!-- End video content -->
+
+		</div>
+		<!-- End topic -->
+
+		<% end %>
+	</div>
+	<!-- End Display course specific topics -->
+</div>

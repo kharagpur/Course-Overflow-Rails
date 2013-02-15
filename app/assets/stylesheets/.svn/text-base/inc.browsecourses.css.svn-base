@@ -1,0 +1,134 @@
+.lightblue-text {
+  color: #d3f4ff;
+}
+.darkblue-text {
+  color: #38c9ff;
+}
+@font-face {
+  font-family: 'Armata';
+  src: url('armata-regular-webfont.eot');
+  src: url('armata-regular-webfont.eot?#iefix') format('embedded-opentype'), url('armata-regular-webfont.woff') format('woff'), url('armata-regular-webfont.ttf') format('truetype'), url('armata-regular-webfont.svg#') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+  font-size: 100%;
+}
+/*** BROWSE COURSES ****/
+#browse-courses {
+  background-color: #676767;
+  color: #fff;
+  display: none;
+  padding: 15px 0;
+  overflow: hidden;
+}
+#browse-courses h1 {
+  color: #d3f4ff;
+  font-weight: bold;
+  font-size: 110%;
+  margin-bottom: 10px;
+}
+#browse-courses ul {
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+}
+#browse-courses li {
+  margin-bottom: 4px;
+}
+#browse-courses a {
+  background: url("../assets/list-icon.png") 0px 2px no-repeat;
+  color: #fff;
+  display: inline-block;
+  font-size: 90%;
+  padding-left: 15px;
+  text-decoration: none;
+}
+#browse-courses a:hover {
+  text-decoration: underline;
+}
+#browse-courses-inner {
+  width: 1300px;
+  margin: 0 auto;
+}
+#browse-courses-inner > div {
+  float: left;
+}
+#departments {
+  width: 465px;
+  border-right: 1px solid #000;
+  box-shadow: 1px 0 0 #ffffff;
+  -webkit-box-shadow: 1px 0 0 #ffffff;
+  -moz-box-shadow: 1px 0 0 #ffffff;
+}
+#courses {
+  padding-left: 50px;
+}
+#browse-btn-wrap {
+  border-top: 8px solid #38c9ff;
+  overflow: hidden;
+}
+#browse-btn-wrap a {
+  display: inline-block;
+  background-color: #38c9ff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: inline-block;
+  font-family: Armata, sans-serif;
+  font-size: 80%;
+  color: #333;
+  padding: 4px 8px 8px 8px;
+  position: relative;
+  left: 50%;
+  margin-left: 400px;
+  text-decoration: none;
+  box-shadow: 0px 4px 8px #aaaaaa;
+  -webkit-box-shadow: 0px 4px 8px #aaaaaa;
+  -moz-box-shadow: 0px 4px 8px #aaaaaa;
+}
+/*** HEADER ***/
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+#header {
+  color: #676767;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#header span {
+  color: #38c9ff;
+}
+#course-logo {
+  float: left;
+}
+#greet {
+  float: left;
+  font-size: 90%;
+  margin-top: 55px;
+  margin-left: 50px;
+}
+#greet a {
+  color: #38c9ff;
+}
+#greet p {
+  margin-bottom: 5px;
+}
+#greet-text a:hover {
+  color: #008abe;
+}
+#search {
+  float: right;
+}
+#search input[type=submit] {
+  border: 0;
+  color: #fff;
+  font-family: Armata, sans-serif;
+  font-size: 80%;
+  margin-top: 20px;
+  padding-left: 20px;
+  background: url("../assets/Search-btn.png") top left no-repeat;
+  width: 122px;
+  height: 93px;
+}

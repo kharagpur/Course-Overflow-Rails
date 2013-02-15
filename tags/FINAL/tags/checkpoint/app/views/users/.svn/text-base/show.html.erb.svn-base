@@ -1,0 +1,116 @@
+<div id="wrapper">
+<!--Begin Top Bar-->
+<!-- Begin Header -->
+                <%= render 'layouts/common_header' %>
+        <!-- End Header -->
+        <!--End Top Bar-->
+		<div id="profile">
+                        <div id="profile-pics">
+                                <%= image_tag("peter-zenger.jpeg", :alt => "Peter Zenger")%>
+                        </div>
+                        <div id="profile-info">
+                                <p id="profile-name"><%= @user.firstname %> <%= @user.lastname %></p>
+                                <p>Major: <%= @user.major %></p>
+                                <p>Academic Status: Under Graduate</p>
+                                <p>Overall Rating: B</p>
+				<% if signed_in? and @current_user.id == @user.id %>
+                                <p><a href="#">Change Profile Picture</a></p>
+                                <p><a href="#">Change Password</a></p>
+				<% end %>
+                        </div>
+                </div>
+
+<div id="profile-body">
+                        <!--BEGIN CONTRIBUTION-->
+                        <p>Contributions</p>
+			<% @def.each do |d| %>
+                        <div id="tuple">
+                                <!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+                                <p id="question"><%= link_to "#{d.content.course.title} - #{d.content.title}", d.content.course %></p>
+                                <div id="answer">
+                                        <p><%= d.description %></p>
+                                                <div id="component-score">
+                                                        <div id="component-score-text">
+                                                        <a href="#"><%= d.user.firstname %> <%= d.user.lastname %></a>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= d.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= d.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+                                                        </div>
+                                                </div>
+                                </div>
+                        </div>
+			<% end %>
+			<% @analog.each do |a| %>
+                        <div id="tuple">
+                                <!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+                                <p id="question"><%= link_to "#{a.content.course.title} - #{a.content.title}", a.content.course %></p>
+                                <div id="answer">
+                                        <p><%= a.description %></p>
+                                                <div id="component-score">
+                                                        <div id="component-score-text">
+                                                        <a href="#"><%= a.user.firstname %> <%= a.user.lastname %></a>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= a.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= a.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+                                                        </div>
+                                                </div>
+                                </div>
+                        </div>
+                        <% end %>
+			<% @vid.each do |v| %>
+                        <div id="tuple">
+                                <!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+                                <p id="question"><%= link_to "#{v.content.course.title} - #{v.content.title}", v.content.course %></p>
+                                <div id="answer">
+					<div class="video-prev"><!--Insert video preview image here --><%= v.title %></div>
+					<div class="video-desc">
+                                        	<p><%= v.description %></p>
+					</div>
+                                                <div id="component-score">
+                                                        <div id="component-score-text">
+                                                        <a href="#"><%= v.user.firstname %> <%= v.user.lastname %></a>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= v.rating_up %><%= image_tag("thumbs-up.png", :alt => "Rate up")%>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        <%= v.rating_down %><%= image_tag("thumbs-down.png", :alt => "Rate down")%>
+                                                        </div>
+                                                </div>
+                                </div>
+                        </div>
+                        <% end %>
+			<!--END CONTRIBUTION-->
+                        <!--BEGIN QUESTION ANSWERED-->
+                        <p>Questions Answered</p>
+                        <div id="tuple">
+                                <!--NOTE: LINK DIRECTS TO THAT DISCUSSION PAGE-->
+                                <p id="question"><a href="#">CMPT 300: What is a deadlock?</a></p>
+                                <div id="answer">
+                                        <p>Best definition of a deadlock.
+                                        Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem tr$
+                                        <br>
+                                        <p>Ihr bringt mit euch die Bilder froher Tage, Und manche liebe Schatte$
+                                                <div id="component-score">
+                                                        <div id="component-score-text">
+                                                        <a href="#">p.zenger</a>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        300<img src="images/thumbs-up.png"/>
+                                                        </div>
+                                                        <div id="component-score-text">
+                                                        25<img src="images/thumbs-down.png"/>
+                                                        </div>
+                                                </div>
+                                </div>
+                        </div>
+<!--END QUESTION ANSWERED-->
+                </div>
+        <!--End Body-->
+</div>

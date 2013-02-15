@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Popup</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/popup.css" />
+</head>
+<body>
+	<h1 style="width: 1000px; margin: 0 auto;">This will be a jquery modal popup</h1>
+	<div class="popup">
+		<div class="title">
+			More Definitions of: "DeadLock"
+			<a href="#">Post your own definition</a>
+		</div>
+		<div class="popup_content">
+			<div class="definition_title">
+				DeadLock:
+			</div>
+			<div class="definition">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio quam, ornare eu faucibus eu, pharetra quis velit. Quisque tortor sem, iaculis nec semper sed, vulputate non lacus. Cras a felis quam, sed aliquet nisl. Nam hendrerit eleifend velit, et condimentum risus malesuada vitae. Nunc molestie, nisl nec interdum cursus, ligula enim euismod libero, non molestie quam dolor at ipsum. Proin vehicula facilisis nibh nec condimentum.</p>
+				<p>
+					For example:
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio quam, ornare eu faucibus eu, pharetra quis velit. Quisque tortor sem, iaculis nec semper sed, vulputate non lacus. Cras a felis quam, sed aliquet nisl. Nam hendrerit eleifend velit, et condimentum risus malesuada vitae. Nunc molestie, nisl nec interdum cursus, ligula enim euismod libero, non molestie quam dolor at ipsum. Proin vehicula facilisis nibh nec condimentum.
+				</p>
+				<div class="vote">
+					Submitted By: <a href="#" class="submitted_by">vwc10</a>
+					<a href="#" class="upvote">310</a>
+					<a href="#" class="downvote">100</a>
+				</div>
+			</div>
+
+			<div class="definition_title">
+				DeadLock:
+			</div>
+			<div class="definition">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio quam, ornare eu faucibus eu, pharetra quis velit. Quisque tortor sem, iaculis nec semper sed, vulputate non lacus. Cras a felis quam, sed aliquet nisl. Nam hendrerit eleifend velit, et condimentum risus malesuada vitae. Nunc molestie, nisl nec interdum cursus, ligula enim euismod libero, non molestie quam dolor at ipsum. Proin vehicula facilisis nibh nec condimentum.</p>
+				<p>
+					For example:
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec odio quam, ornare eu faucibus eu, pharetra quis velit. Quisque tortor sem, iaculis nec semper sed, vulputate non lacus. Cras a felis quam, sed aliquet nisl. Nam hendrerit eleifend velit, et condimentum risus malesuada vitae. Nunc molestie, nisl nec interdum cursus, ligula enim euismod libero, non molestie quam dolor at ipsum. Proin vehicula facilisis nibh nec condimentum.
+				</p>
+
+				<div class="vote">
+					Submitted By: <a href="#" class="submitted_by">shabadom</a>
+					<a href="#" class="upvote">1</a>
+					<a href="#" class="downvote">9999999</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

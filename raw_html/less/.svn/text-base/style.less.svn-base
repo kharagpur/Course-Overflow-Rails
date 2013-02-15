@@ -1,0 +1,116 @@
+@import "include";
+
+/*** HEADER ***/
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#header {
+	font-family: Armata, sans-serif;
+	font-size: 220%;
+	color: #676767;
+	overflow: hidden;
+	margin-bottom: 10px; 
+	span {
+		color: @dark-blue;
+	}
+}
+
+#header_intro {
+	background-color: @light-blue;
+	font-size: 95%;
+	padding: 10px;
+	min-height: 200px;
+	margin-bottom: 20px;
+}
+
+/*** LOGIN AND REGISTER ***/
+#home-body {
+	background: url("../images/home-logo.jpg") top left no-repeat;
+	overflow: hidden;
+}
+
+#login-register {
+	float: right;
+	height: 400px;
+	width: 560px;
+	overflow: hidden;
+	img {
+		position: absolute;
+		z-index: 100;
+	}
+	a {
+		color: #676767;
+		display: inline-block;
+		font-family: Armata, sans-serif;
+		font-size: 180%;
+		height: 59px;
+		line-height: 59px;
+		letter-spacing: 2px;
+		padding: 0 60px 0 80px;
+		background-color: #e7e7e7;
+		border-top-right-radius: 15px;
+		-moz-border-radius-topright: 15px;
+		-webkit-border-top-right-radius: 15px;
+
+		&.selected {
+			background-color: @light-blue;
+		}
+	}
+
+	#login-btn {
+		position: relative;
+		z-index: 2;
+		border-right: 3px solid #fff;
+	}
+
+	#register-btn {
+		position: relative;
+		margin-left: -40px;
+		z-index: 1;
+	}
+}
+
+#home-content {
+	background-color: @light-blue;
+	padding: 20px;
+	overflow: hidden;
+	min-height: 412px;
+
+	input[type=text], input[type=password] {
+		float: left;
+		width: 350px;
+		margin-left: 50px;
+		margin-bottom: 4px;
+		padding: 4px 4px;
+	}
+
+	input[type=submit] {
+		border: 0;
+		color: #fff;
+		font-family: Armata, sans-serif;
+		font-size: 100%;
+		margin-top: 20px;
+		background: url("../images/form-submit.png") top left no-repeat;
+		display: inline-block;
+		width: 141px;
+		height: 49px;
+		float: right;
+	}
+
+	br {
+		clear: both;
+	}
+
+	#register_form {
+		display: none;
+	}
+
+	#login_form {
+		padding-top: 40px;
+		input {
+			margin-bottom: 30px;
+		}
+	}
+}
+
